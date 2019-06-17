@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Home page is displaed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19683" started-at="2019-06-14T15:39:32Z" finished-at="2019-06-14T15:39:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19683" started-at="2019-06-14T15:39:32Z" finished-at="2019-06-14T15:39:51Z">
+      <class name="script.TestValidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.TestValidLogin@68c4039c]" name="openApplication" is-config="true" duration-ms="11170" started-at="2019-06-14T15:39:32Z" finished-at="2019-06-14T15:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="login()[pri:0, instance:script.TestValidLogin@68c4039c]" name="login" duration-ms="6375" started-at="2019-06-14T15:39:43Z" finished-at="2019-06-14T15:39:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page is displaed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closApplication()[pri:0, instance:script.TestValidLogin@68c4039c]" name="closApplication" is-config="true" duration-ms="2103" started-at="2019-06-14T15:39:49Z" finished-at="2019-06-14T15:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closApplication -->
+      </class> <!-- script.TestValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
